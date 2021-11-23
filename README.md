@@ -1,2 +1,29 @@
-# rmath
-Powerful math lib for Vector, Matrix and Quaternion operations
+![](./misc/rmath.png)
+
+> An opinionated, powerful math lib for Vector2, Vector3, Matrix and Quaternion operations
+
+## Vector2
+ - Add, Sub, Div, Mul, Eq
+ - Distance
+ - Move towards
+ - and more
+
+## Vector3
+> TODO
+
+## Quaternion
+> TODO
+
+## Matrix
+> TODO
+
+
+## TODOs
+- vector3
+- quaternion
+- matrix
+- tests
+- documentation
+
+
+> _This lib designed to be part of Λ.R.Ξ.N.Λ 2D game engine._
