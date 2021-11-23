@@ -5,7 +5,7 @@
 ## Vector2
  - Add, Sub, Div, Mul, Eq
  - Distance
- - Move towards
+ - Move towards target
  - and more
 
 ## Vector3
