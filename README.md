@@ -26,4 +26,4 @@
 - documentation
 
 
-> _This lib developed to be part of Λ.R.Ξ.N.Λ 2D game engine._
+> _This crate is developed to be part of Λ.R.Ξ.N.Λ 2D game engine._
