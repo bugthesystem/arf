@@ -1,4 +1,3 @@
-
 /// `Matrix` type (OpenGL style 4x4 - right handed, column major)
 #[derive(Copy, Clone, Debug)]
 pub struct Matrix {

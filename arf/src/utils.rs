@@ -1,7 +1,5 @@
 // const PI: f64 = 3.14159265358979323846;
-use std::f64::consts::{
-    PI
-};
+use std::f64::consts::PI;
 
 const DEG2RAD: f64 = PI / 180.0;
 const RAD2DEG: f64 = 180.0 / PI;

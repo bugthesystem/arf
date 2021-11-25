@@ -1,7 +1,7 @@
 use std::f64::consts::PI;
-use std::ops::{Add, Sub, Div, Mul, Neg};
-use libm::{atan2};
+use std::ops::{Add, Div, Mul, Neg, Sub};
 
+use libm::atan2;
 
 /// `Vector2` type
 #[derive(Copy, Clone, Debug)]

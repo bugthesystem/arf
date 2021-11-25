@@ -1,4 +1,3 @@
-
 /// `Vector3` type
 #[derive(Copy, Clone, Debug)]
 pub struct Vector3 {
