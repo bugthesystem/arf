@@ -1,4 +1,4 @@
-![](./misc/rmath.png)
+# ARF ![](./misc/rmath.png)
 
 > An opinionated, powerful math lib for Vector2, Vector3, Matrix and Quaternion operations
 
