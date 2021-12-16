@@ -53,6 +53,31 @@ impl Vector3 {
     pub fn cross_product(v1: Vector3, v2: Vector3) -> Vector3 {
         return Self { x: v1.y * v2.z - v1.z * v2.y, y: v1.z * v2.x - v1.x * v2.z, z: v1.x * v2.y - v1.y * v2.x };
     }
+
+    /// Calculate one vector perpendicular vector
+    pub fn perpendicular(v: Vector3) -> Vector3 {
+        let mut result: Vector3 = Vector3::zero();
+
+        let mut min: f64 = v.x.abs();
+        let mut cardinal_axis: Vector3 = Vector3 { x: 1.0, y: 0.0, z: 0.0 };
+
+        if v.y.abs() < min {
+            min = v.y.abs();
+
+            cardinal_axis = Vector3 { x: 0.0, y: 1.0, z: 0.0 };
+        }
+
+        if v.z.abs() < min {
+            cardinal_axis = Vector3 { x: 0.0, y: 0.0, z: 1.0 };
+        }
+
+        // cross product between vectors
+        result.x = v.y * cardinal_axis.z - v.z * cardinal_axis.y;
+        result.y = v.z * cardinal_axis.x - v.x * cardinal_axis.z;
+        result.z = v.x * cardinal_axis.y - v.y * cardinal_axis.x;
+
+        return result;
+    }
 }
 
 /// The addition operator +
