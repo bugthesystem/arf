@@ -10,16 +10,7 @@
 - and more
 
 ## Vector3
-
-> TODO
-
-## Quaternion
-
-> TODO
-
-## Matrix
-
-> TODO
+- Add, Sub, Mul
 
 ## TODOs
 
