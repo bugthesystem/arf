@@ -41,7 +41,7 @@ impl Vector3 {
 
     /// Multiply vector by scalar
     pub fn scale(v1: Vector3, scalar: f64) -> Self {
-        return Self { x: v1.x * val, y: v1.y * val, z: v1.z * val };
+        return Self { x: v1.x * scalar, y: v1.y * scalar, z: v1.z * scalar };
     }
 
     /// Multiply vector by vector
